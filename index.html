@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RESUME_PRUDHVI</title>
+        <link rel="icon" href="images/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="div1">
+            <img src="images/photo.jpg" alt="Profile Photo" style="height:300px; width:200px;">
+            </div>
+            <div class="div2">
+                <h1 style="text-decoration: underline; text-align: center;"> KOLLA NAGA PRUDHVI</h1>
+                <h2 style="text-align: center;">“Enthusiastic Software Engineer fresher with proficiency in full-stack development and problem-solving,<br>seeking to contribute to a forward-thinking organization by delivering high-quality software solutions and continuously improving my skills.”</h2>
+                <div>
+                    <p style="text-align: center;" id="demo"></p>
+                    <script>
+                        const d= new Date()
+                        document.getElementById("demo").innerHTML= d;
+                    </script>
+                </div>
+            
+            </div>
+
+        </div>
+
+       <div class="slideshow">
+        <div class="slide_wrapper">
+            <div class="slide">
+                <img src="images/corridor.jpg">
+                <div class="text">
+                    <h2>SKILLS</h2>
+                    <dl>
+                    <dt>FRONT-END_DEVELOPMENT</dt>
+                    <dd>HTML</dd>
+                    <dd>CSS</dd>
+                    <dd>JAVASCRIPT</dd>
+                    <dt>BACK-END_DEVELOPMENT</dt>
+                    <dd>NODE.JS</dd>
+                    <dd>MONGODB</dd>
+                    <dd>SQL</dd>
+                    <dd>REST API's</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/marbles.jpg">
+                <div class="text">
+                    <h2>KNOWLEDGE ON SOFTWARE ENGINEERING CONCEPTS.</h2>
+                    <ul>
+                        <li>Java Programming</li>
+                        <li>Object Oriented programming</li>
+                        <li>Software Testing, Computer Networks</li>
+                        <li>Software Development Life Cycle.</li>
+                        <li>Basic Knowledge on UML.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/skyscrapper.jpg">
+                <div class="text">
+                    <h2>SOFT SKILLS</h2>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>Team Work and Collaboration</li>
+                        <li>Adaptability and learning Mindset</li>
+                        <li>Problem Solving and Critical Thinking</li>
+                        <li>Time Management and organization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </div>
+    <h2 style="text-align: center; color:black;">Contact form</h2>   
+    <div class="form">
+   <form action="https://formsubmit.co/kolla0453@gmail.com" method="POST">
+    <div class="form">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." class="inputsize" required>
+    </div>
+    <div class="form">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="inputsize" required>
+    </div>
+    <div class="form">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" class="inputsize" required>
+    </div>
+    <div class="form">
+    <label for="country">Country</label>
+    <select id="country" name="country" class="inputsize">
+      <option value="India">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="United Kingdom">United Kingdom</option>
+    </select>
+    </div>
+    <div class="form">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+    <input type="submit" value="SUBMIT">
+    
+  </form>
+</div>
+
+
+</body>
+</html>
